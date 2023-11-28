@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+     background-color: #140a0a; 
+}
+header {
+    position: relative;
+  }
+  
+  header img {
+    background-image:url("./Media/baner.jpg");
+    width: 100%;
+    height: auto;
+  }
+  
+  header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    font-family: 'Courier New', monospace; 
+    text-align: center;
+  }
+main {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+}
+
+#London {
+    width: 33%;
+    background-color: #974e4e;
+    padding: 20px;
+
+}
+
+#Paris {
+    width: 33%;
+    background-color: #974e4e;
+    padding: 20px;
+
+}
+#Tokyo {
+    width: 33%;
+    background-color: #974e4e;
+    padding: 20px;
+}
+
+footer {
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
